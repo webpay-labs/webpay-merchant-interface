@@ -1,12 +1,12 @@
 {
-  "name": "dapp-scaffold",
+  "name": "webpay",
   "version": "0.1.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/solana-labs/dapp-scaffold"
+    "url": "https://github.com/aldrinc/webpay"
   },
-  "homepage": ".",
+  "homepage": "https://web3-pay.herokuapp.com/",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
