@@ -20,7 +20,6 @@
     "deploy": "gh-pages -d build",
     "deploy:ar": "arweave deploy-dir build --key-file ",
     "format:fix": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|css|md)\"",
-    "heroku-postbuild": "craco build && serve -s build"
   },
   "dependencies": {
     "@ant-design/icons": "^4.5.0",
