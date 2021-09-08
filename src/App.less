@@ -1,18 +1,13 @@
-@import "~antd/dist/antd.dark.less";
-@import "./ant-custom.less";
+@import '~antd/dist/antd.dark.less';
+@import './ant-custom.less';
 
 body {
   --row-highlight: @background-color-base;
 }
 
 .app-title {
-  font-family: "FF Oxide Solid";
-  font-style: normal;
-  font-weight: 300;
-  letter-spacing: 0px;
-
-  h2 {
-    font-size: 20px;
+  img {
+    max-width: 125px;
     margin: 0px;
   }
 }
@@ -35,7 +30,7 @@ body {
   width: 100%;
   top: 0px;
   position: relative;
-  padding: 1rem;
+  padding: 2rem;
   z-index: 2;
 
   .ant-menu-horizontal {
@@ -190,7 +185,7 @@ em {
   color: @text-color-secondary;
 }
 
-[class="ant-layout-header"] {
+[class='ant-layout-header'] {
   height: 16px !important;
 }
 

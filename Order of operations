@@ -1,0 +1,8 @@
+Order of operations
+
+Connect To Customer Wallet
+Create Transaction
+Store Metadata in Customer Wallet About Txn
+Send funds + metadata to smart contract address
+Smart contract sends funds to merchant wallet
+
